@@ -1,18 +1,20 @@
 
 class Students{
-
+///instance varriable or globally declared varriables
   String? name;
   int? age;
   int? phone;
   double? cgpa;
   String? email;
 
+  ///static varriables
   static String course ="flutter";
 
 }
 
 void main(){
 
+  ///object creation ->classname objectname = classname();   classname() => constructor
   Students st1 = Students();
 
   print("Student 1 Details");
